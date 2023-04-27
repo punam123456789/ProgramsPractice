@@ -16,5 +16,5 @@
 var str = 'madam';
 function reverse(){
     let myReverseStr ='';
-    for(var i = str.length;)
+    // for(var i = str.length;)
 }
