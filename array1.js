@@ -24,25 +24,26 @@
 
 
 var arr = [1,2,3,4,5,6];
-var even = [];
-var odd = [];
-flag=false
+// var even = [];
+// var odd = [];
+// flag=false
 for(var i=0;i<arr.length;i++){
     if(arr[i]%2==0) {
-        even.push(arr[i]);
-        flag=true;
+        console.log(arr[i]);
+        // flag=true;
+         (arr[i]==0);
 
     }
-        // console.log(even)
+        console.log("even numbers",arr[i])
 }
-   if(flag=true){
-    console.log(even)
-   }
-   else{
-    odd.push(arr[i]);
+//    if(flag=true){
+//     console.log(even)
+//    }
+//    else{
+//     odd.push(arr[i]);
 
- console.log(odd)
+//  console.log(odd)
   
-   }  
+//    }  
   
             
