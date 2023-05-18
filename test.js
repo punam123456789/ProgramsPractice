@@ -161,18 +161,41 @@
 // }
 
 
-var array=[34,45,65,23,10,67,34,39];
-var target=67;
-var flag=false;
-for(var i=0;i<array.length;i++){
-    if(array[i]==target){
-        flag=true;
-    }
+// var array=[34,45,65,23,10,67,34,39];
+// var target=67;
+// var flag=false;
+// for(var i=0;i<array.length;i++){
+//     if(array[i]==target){
+//         flag=true;
+//     }
   
+// }
+// if(flag==true){
+//     console.log("found");
+// }
+// else{
+//     console.log("not fount");
+// }
+
+
+// var start=5768
+// var end=78656
+// sum=0;
+// for(var i=start; i<=end; i++){
+//     if(i%2==0){
+//         sum=sum+i;
+//     }
+// }
+// console.log(sum);
+
+
+var num=19;
+var array=[3,5,33,23,56,19,,77,89]
+var index=0
+for(i=0; i<array.length; i++){
+    if(array[i]==num){
+        index=i
+    }
 }
-if(flag==true){
-    console.log("found");
-}
-else{
-    console.log("not fount");
-}
+console.log(index);
+
